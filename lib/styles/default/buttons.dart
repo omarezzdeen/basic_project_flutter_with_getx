@@ -17,7 +17,7 @@ class DefaultButtonStyles {
         containerStyle: _defaultContainerStyles.defaultButtonContainer,
         style: defaultButtonModel().copyWith(
           backgroundColor: AppColors.greyDark,
-          isEnable: isEnable,
+          enableFeedback: isEnable,
         ),
         textStyle: _defaultTextStyles.h3MediumStyleWhite(),
       );

@@ -44,7 +44,7 @@ class BottomSheetContainer extends StatelessWidget {
                   height: DEVICE_HEIGHT * 0.01,
                 ),
                 CommonText(
-                  text: title ?? '',
+                  title ?? '',
                   style: appTextStyles.h2StyleBlack().copyWith(
                         fontWeight: FontWeight.w500,
                       ),

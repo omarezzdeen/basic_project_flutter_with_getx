@@ -1,11 +1,11 @@
 import '../../general_exports.dart';
 
 class DefaultTextStyles {
-  CommonTextModel defaultTextStyle = CommonTextModel(
+  CommonTextModel defaultTextStyle = const CommonTextModel(
     fontFamily: 'Roboto',
   );
 
-  CommonTextModel mediumTextStyle = CommonTextModel(
+  CommonTextModel mediumTextStyle = const CommonTextModel(
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w600,
   );
@@ -214,7 +214,7 @@ class DefaultTextStyles {
 
   CommonTextModel dateStyle() => h5StyleBlack().copyWith(
         fontColor: AppColors.grey,
-        maxlines: 1,
+        maxLines: 1,
         textAlign: TextAlign.start,
       );
 

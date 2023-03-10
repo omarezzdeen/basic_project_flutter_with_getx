@@ -1,4 +1,3 @@
-
 import 'package:common_ui_toolkit/common_ui_toolkit.dart';
 
 import '../../screens/my_app/index.dart';
@@ -25,15 +24,15 @@ class CommonTitle extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         CommonText(
+          title,
           style: appTextStyles.h3MediumStyleBlack(),
-          text: title,
         ),
         const SizedBox(
           height: 5,
         ),
         CommonText(
+          value,
           style: appTextStyles.h2Grey(),
-          text: value,
         ),
       ],
     );

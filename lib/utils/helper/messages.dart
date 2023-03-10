@@ -1,5 +1,3 @@
-import 'package:get/get.dart';
-
 import '../../general_exports.dart';
 
 /// show alert
@@ -20,11 +18,11 @@ void showMessage({
     //   // text: description!,
     // ),
     messageText: CommonText(
+      // text: languageByKey(alert),
+      description ?? '',
       // style: h3MediumStyleBlack.copyWith(textAlign: TextAlign.start),
       containerStyle:
           CommonContainerModel(alignment: AlignmentDirectional.centerStart),
-      // text: languageByKey(alert),
-      text: description ?? '',
     ),
     backgroundColor: withBackground ? Colors.white60 : null,
     barBlur: 2,

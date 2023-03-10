@@ -63,7 +63,7 @@ class HomeBottomBar extends StatelessWidget {
                                             ),
                                           ),
                                           CommonText(
-                                            text: e[titleKey],
+                                            e[titleKey],
                                             style: appTextStyles
                                                 .h4Style()
                                                 .copyWith(

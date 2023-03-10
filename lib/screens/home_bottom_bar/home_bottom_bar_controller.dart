@@ -4,29 +4,29 @@ class HomeBottomBarController extends GetxController {
   List<dynamic>? bottomBarItems = <dynamic>[
     <String, dynamic>{
       titleKey: 'Home',
-      widgetKey: CommonText(
-        text: 'Home',
+      widgetKey: const CommonText(
+        'Home',
       ),
       keyIcon: iconArrowRightSmall,
     },
     <String, dynamic>{
       titleKey: 'Home2',
-      widgetKey: CommonText(
-        text: 'Home2',
+      widgetKey: const CommonText(
+        'Home2',
       ),
       keyIcon: iconArrowRightSmall,
     },
     <String, dynamic>{
       titleKey: 'Home3',
-      widgetKey: CommonText(
-        text: 'Home3',
+      widgetKey: const CommonText(
+        'Home3',
       ),
       keyIcon: iconArrowRightSmall,
     },
     <String, dynamic>{
       titleKey: 'Home4',
-      widgetKey: CommonText(
-        text: 'Home4',
+      widgetKey: const CommonText(
+        'Home4',
       ),
       keyIcon: iconArrowRightSmall,
     },
